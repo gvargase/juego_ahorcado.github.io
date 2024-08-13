@@ -1,0 +1,114 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+header,footer{background-color: #00509e;height: 90px;}
+header{
+    h1{
+        color: #fff;
+        font-style: italic;
+        // font-size: 25px;
+        padding-top:15px;
+        margin: 0;
+        text-align: right;
+        text-transform: uppercase;
+    }
+    .div-header{
+        display: flex;
+        justify-content:space-between;
+        margin: 0 auto;
+        width: 95%;
+    }
+    img{
+        width: 55px;
+        padding:10px;
+    }
+}
+footer{
+    padding: 5px 0;
+    p{
+        color: #fff;
+        padding: 5px;
+        margin: 0;
+        text-align: center;
+    }
+}
+main{
+    margin: 20px 0;
+    .puntuaje{
+        float: left;
+        margin-left: 7%;
+        p{
+            background-color: #ccc;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 5px;
+        }
+    }
+}
+#contenedor-juego {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#boton-empezar{
+    height: 40px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+#boton-empezar:hover{
+    border: 1px solid black;
+    color: orange;
+    background-color: #00509e;
+}
+#imagen-ahorcado {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+#botones-alfabeto {
+    margin-top: 20px;
+    button {
+        margin: 5px;
+        padding: 10px 15px;
+        background-color: #00509e;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+#botones-alfabeto button:hover {
+    background-color: #415dfc;
+}
+
+#botones-alfabeto button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#estadisticas {
+    margin-top: 20px;
+    p {
+        margin: 5px 0;
+    }
+}
+
+#resultado-juego {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
